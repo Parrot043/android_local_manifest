@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
+  <remove-project name="LineageOS/android_bionic" />
+ <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc"/>
+  <remove-project name="LineageOS/android_frameworks_native" />
+
+  <project path="device/jiayu/s3_h560" name="sandstranger/android_device_jiayu_s3_h560" revision="los-15" />
+  <project path="vendor/jiayu/s3_h560" name="sandstranger/android_vendor_jiayu_s3_h560" revision="lineage-15.0" />
+  <project path="vendor/mad" name="sandstranger/android_vendor_mad" revision="lineage-15.0" />
+  <project path="kernel/jiayu/s3_h560" name="sandstranger/android_kernel_jiayu_s3_h560" revision="android-8" />
+  <project path="vendor/mediatek" name="Moyster/o_vendor_mediatek" revision="los-15.0" />
+  <project path="hardware/interfaces" name="sandstranger/android_hardware_interfaces_mtk" revision="lineage-15.0" />
+
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-15.0" />
+  <project path="packages/apps/FMRadio" name="sandstranger/android_packages_apps_FMRadio" revision="lineage-15.0" />
+  <project path="bootable/recovery-twrp" name="sandstranger/android_bootable_recovery" remote="github" revision="android-8.0" groups="pdk-cw-fs"/>
+  <project path="frameworks/base" name="sandstranger/android_frameworks_base" groups="pdk" />
+  <project path="bionic" name="sandstranger/android_bionic_mtk" groups="pdk"/>
+  <project path="system/core" name="sandstranger/android_system_core_mtk" groups="pdk"/>
+  <project path="frameworks/av" name="sandstranger/android_frameworks_av_mtk" groups="pdk"/>
+  <project path="frameworks/native" name="sandstranger/android_frameworks_native_mtk" groups="pdk"/>
+
+  <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
+</manifest>
